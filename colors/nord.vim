@@ -35,7 +35,7 @@ let s:nord14_gui = "#A3BE8C"
 let s:nord15_gui = "#B48EAD"
 
 let s:nord1_term = "0"
-let s:nord3_term = "8"
+let s:nord3_term = "102"
 let s:nord5_term = "7"
 let s:nord6_term = "15"
 let s:nord7_term = "14"
@@ -120,7 +120,7 @@ if exists("g:nord_comment_brightness")
   call s:logWarning('Variable g:nord_comment_brightness has been deprecated and will be removed in version 1.0.0!' .
                    \' The comment color brightness has been increased by 10% by default.' .
                    \' Please see https://github.com/arcticicestudio/nord-vim/issues/145 for more details.')
-  let g:nord_comment_brightness = 10
+  let g:nord_comment_brightness = 20
 endif
 
 if !exists("g:nord_uniform_diff_background")
